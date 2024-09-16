@@ -1,0 +1,85 @@
+/*--------------even-------------*/
+
+    /*  
+    1.ADD (*) AND MAKE IT COLOR BLUE IN CSS  */
+    <style>
+        span{
+    color:red
+}
+
+</style>
+
+/*2.Dropdown Selected should have shadow */
+    <style>
+      .form1 select{
+            box-shadow: 5px 5px 5px;
+        }
+    </style>
+
+    /*3.Dropdown values have alternate colors */
+    <style>
+      .form1 option:nth-child(odd){
+        color:red
+        }
+      option:nth-child(even){
+        color: blue;
+        }
+    </style>
+
+    /*4.Mandatory labels first letter should be bolder than other characters */
+<style>
+   .form1 p::first-letter{
+        font-weight:bolder;
+    }
+</style>
+
+/*5.Checkbox selected should change the color of the text to red */
+<style>
+   .form1 label{
+    color: red;
+    }
+</style>
+
+
+/*--------------odd-------------*/
+    
+/*  1.ADD (*) AND MAKE IT COLOR BLUE IN CSS  */
+<style>
+.form2 .required::after {
+    content: "*";
+    color:blue;
+}
+
+</style>
+
+/*    2.MANDATORY MESSAGE ("Required" Attribute Given in mandatory INPUT ELEMENT)     */
+
+
+/*  3.ONCLICK INPUT FIELD MAKE IT BORDER HIGHLIGHT  */
+
+<style>
+    .form2 input[required]:focus{
+    border-radius:10px ;
+    padding:10px;
+    color: blue;
+    border: 3px;
+    }
+</style>
+
+/*  4. WHENEVER MOUSHOVER  ON MANDATORY LABEL SHOW COLOR GREEN  */
+
+<style>
+    .form2 .required:hover{
+    color: green;
+    font-weight:bolder;
+    }
+</style>
+
+/* 5.NON MANDATORY LABEL SHOW COLOR YELLOW */
+
+<style>
+    .form2 .notrequired:hover{
+        color: yellow;
+        font-weight: bolder;
+    } 
+</style>
